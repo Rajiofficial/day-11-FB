@@ -1,0 +1,456 @@
+body{
+ 
+    background-color: #222;
+    margin: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+    color: white;
+    
+    
+
+}
+
+
+#parent_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 5px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    
+    }
+
+#first-flex{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ gap: 5px;
+ width: 35%;
+ height: 40px;
+ padding-bottom: 2px;
+ 
+ 
+ 
+}
+
+#fb_logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#textbox{
+    border: 0;
+    padding-left: 38px;
+    border-radius: 30px;
+    background-color: rgb(66, 61, 61);
+    color: white;
+    width: 100%;
+    height:37px;
+    padding-top: 2px;
+    
+   
+}
+
+.search_box{
+   
+    display: flex;
+    color:white; 
+
+}
+
+.search_image{
+    position: absolute;
+    padding: 7px;
+   
+    
+    }
+
+    #second_flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+         width: 33%;
+        padding-top: 5px;
+        gap: 100px;
+       }
+
+    .cenetr_images{
+       width:28px;
+    
+    }
+
+    #people{
+        border: 3px solid rgb(141, 141, 148);
+        border-radius: 50%;
+        width:25px;
+    }
+
+    #third_flex{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 30%;
+        gap: 10px;
+        padding-right: 10px;
+    }
+    
+    #profile_div{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-decoration: none;
+        border-radius: 30px;
+        
+        
+    }
+
+    #profile_div > span{
+        font-weight: 600;
+        display: flex;
+         align-items: center;
+        color: lightgray;
+      
+
+       
+    }   
+
+    #raji{
+        width:30px;
+        border-radius: 40%;
+    }
+
+    .round{
+        border-radius: 50%;
+        border: 0;
+        background-color: rgb(219, 213, 213);
+        width:20px;
+        padding: 7px;
+        display: flex;
+      
+        
+       
+    }
+
+    #guvi{
+        height: 100%;
+        background-image: linear-gradient(to bottom, #e3d7de, #bbb3bb, #959198, #717076, #4f5055, #3f4145, #303336, #222527, #1e2123, #1b1e1f, #181a1b, #151717);
+        border: 0;
+        padding: 0 960px;
+    }
+
+    #guvi_image{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width:960px;
+        height: 420px;
+        
+        
+    }
+
+
+   #logo_sec{
+    display: flex;
+       gap: 30px;
+       flex-direction: row;
+       align-items: center;
+       border-bottom: 1px solid rgb(63, 63, 68);
+       position: relative;
+       left:50px;
+     
+      
+      }
+   .guvi_logo{
+       display: flex;
+       width:100px;
+       border-radius: 50%;
+       position: relative;
+       bottom: 15px;
+       box-shadow: 0px 0px 0px 4px #222;
+       
+     }
+
+     #checkbox{
+        position: relative;
+        bottom:5px;
+        }
+     #checkbox::before{
+        position: absolute;
+         content: "";
+         background-color: dodgerblue;
+         height: 12px;
+        width: 12px;
+        border: 2px solid  dodgerblue;
+         border-radius: 50%;
+         top: 50%;
+         left: 50%;
+      transform: translate(-50%, -50%);
+
+        
+     }
+
+     #checkbox:checked::after{
+         position:relative;
+         content: "✔";
+         color:#fff;
+         bottom: 3px;
+
+     }
+
+     .big_font{
+         font-weight:600;
+         font-size:1.8em;
+         font-family:sans-serif;
+         position: relative;
+         top: 15px;
+         
+     }
+
+     .signin_box{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 10px;
+         
+         
+         
+
+     }
+     #box{
+        margin-left: 20px;
+       padding: 10px;
+       border:0;
+       background-color: dodgerblue;
+       border-radius: 5px;
+       font-family:sans-serif;
+       color: white;
+       font-weight:600;
+       font-size:medium;
+       text-align: center;
+       cursor: pointer;
+       padding-left: 120px;
+       padding-right: 120px;
+       
+     
+
+     }
+     .official{
+        font-family:sans-serif;
+        color: rgb(153, 147, 147);
+     }
+
+     .pen{
+         position: relative;
+         left:140px;
+         top:3px;
+     }
+    #website{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 140px;
+        position: relative;
+        top: 6px;
+        left:13px;
+        font-size: small;
+    }
+
+    #link{
+        height:15px;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap:200px;
+       font-family:sans-serif;
+        
+    }
+
+    .sublist{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap:30px;
+        color: #a59ca1;
+        cursor: pointer;
+        }
+
+    .like{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        cursor: pointer;
+        
+     
+    }
+
+    .more{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    #dropmore{
+        
+        border-radius: 50%;
+        background-color: #959198;
+        width: 20px;
+    }
+      #image_like{
+          width:15px;
+          
+      }
+
+      #message{
+          width:18px;
+       
+      }
+
+      .message_white{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgb(66, 61, 61);
+      }
+
+     #span_like{
+         padding: 5px 25px;
+        border-radius: 5px;
+        background-color: rgb(66, 61, 61);
+     }
+     #search{
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(66, 61, 61);
+     }
+     #more_image{
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(66, 61, 61);
+     }
+
+     #footer{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         padding: 10px;
+         background-color: transparent;
+          gap:20px;
+         font-family:sans-serif;
+         border: 0;
+         width:100%;
+         height:100%;
+         flex-wrap: wrap;
+        
+        
+
+     }
+
+     #about{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         gap:200px;
+         border:0;
+         border-radius: 5px;
+         flex-wrap: wrap;
+         width:32%;
+         padding: 10px;
+         background-color:#2d2e33;
+         height: 450px;
+         
+
+         
+       }
+
+     #text_about{
+        font-family:sans-serif;
+        font-size:large;
+        font-weight: bold;
+
+     }
+
+     #text_see{
+        font-family:sans-serif;
+        font-weight:300;
+        font-size:15px;
+        color: dodgerblue;
+        position: relative;
+        left:10px;
+     }
+
+     #post{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         gap: 10px;
+         border:0;
+         width:50%;
+         height:100px;
+         flex-wrap: wrap;
+         background-color:#2d2e33;
+         border-radius: 5px;
+         padding-top:15px;
+         padding-bottom:15px;
+         
+     }
+             #post_button{
+                padding: 10px;;
+                border:0;
+                background-color: rgb(62, 65, 68);
+                border-radius: 5px;
+                font-family:sans-serif;
+                color: white;
+                font-weight:500;
+                font-size:medium;
+                text-align: center;
+                cursor: pointer;
+                padding-left: 170px;
+                padding-right: 170px;
+                height:40px;
+             }
+
+             #user_photo{
+                 height:40px;
+                 cursor: pointer;
+             }
+
+             #About_items{
+                position: relative;
+                bottom:180px;
+                font-family:sans-serif;
+                font-weight: 300;
+                color: #d8ccd2;
+                
+                
+             }
+
+             #photo_div{
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: space-evenly;
+                 align-items: center;
+                 gap:40px;
+                 color: #a59ca1;
+                 font-family:sans-serif;
+               font-size:15px;
+               cursor: pointer;
+                
+             }
